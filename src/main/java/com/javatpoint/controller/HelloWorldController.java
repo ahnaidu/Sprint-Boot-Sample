@@ -11,6 +11,6 @@ public class HelloWorldController {
 	@RequestMapping("/")
 	public String hello() {
 		Logger.getAnonymousLogger().log(Level.INFO, "Hellooooooooooooooooooooooooo");
-		return "Hello javaTpoint";
+		return "Hello javaTpointtttttttttttttttttttttttttttttttttt";
 	}
 }
