@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 	@RequestMapping("/")
 	public String hello() {
-		Logger.getAnonymousLogger().log(Level.INFO, "Hi$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+		Logger.getAnonymousLogger().log(Level.INFO, "Hellooooooooooooooooooooooooo");
 		return "Hello javaTpoint";
 	}
 }
